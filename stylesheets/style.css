@@ -45,7 +45,7 @@ section{
 }
 .page {
     height: 100vh;
-    background-image: url(../images/background1.jpg);
+    background-image: url(https://github.com/KennyTangg/HCI_LAB3/blob/main/images/background1.jpg?raw=true);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
