@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kenny Tang | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top text-uppercase navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand font-weight-bold" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4 rounded" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4 rounded" href="#projects"> Projects </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4 rounded" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Section -->
+<section class="page">
+    <div class="container py-5" style="color:white;">
+        <h1 class="display-4">Hi, I'm Kenny Tang</h1>
+        <p class="lead"> A Computer Science Student </p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+        <p class="text-center">I'm a beginner in programming and web development, with two month of experience in front-end technologies. My skills include HTML, CSS, Python, and popular frameworks like Bootstrap.</p>
+    </div>
+    <div class="center">
+        <div class="progress my-3">
+            <div class="pro-value1">
+                <p> HTML <span class="text-white float-right"> 85% </span></p>
+            </div>
+        </div>
+        <div class="progress my-3">
+            <div class="pro-value2">
+                <p> CSS <span class="text-white float-right"> 75% </span></p>
+            </div>
+        </div>
+        <div class="progress my-3">
+            <div class="pro-value3">
+                <p> Python <span class="text-white float-right"> 90% </span></p>
+            </div>
+        </div>
+        <div class="progress my-3">
+            <div class="pro-value4">
+                <p> Bootstrap <span class="text-white float-right"> 30% </span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Projects and Achievements</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="images/project1.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text"> I made a Restaurant Website using HTML and CSS. </p>
+                        <a href="https://kennytangg.github.io/HCI_LAB/" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="images/project2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text"> I made a Robot Game using Python.</p>
+                        <a href="https://github.com/KennyTangg/AlgoPro" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="/images/achieve1.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Achievement 1</h5>
+                        <p class="card-text">E-Certificate of Python</p>
+                        <a href="https://www.hackerrank.com/certificates/e5763c68b462" class="btn btn-primary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white text-center">
+    <p>&copy; 2024 Kenny Tang. All rights reserved.</p>
+</footer>
+
+<script src="/script/bootstrap.bundle.min.js"></script>
+</body>
+</html>
