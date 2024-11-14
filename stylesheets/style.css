@@ -42,7 +42,17 @@ section{
     section h1, section p{
     text-align: center;
     }
+    section.carousel div div img{
+        max-height:250px
+    }
 }
+
+section.carousel div div img{
+    position:relative;
+    left:25%;
+    height:500px
+}
+
 .page {
     height: 100vh;
     background-image: url(https://github.com/KennyTangg/HCI_LAB3/blob/main/images/background1.jpg?raw=true);
